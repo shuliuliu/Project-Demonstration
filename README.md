@@ -22,7 +22,7 @@ Here are a few data analysis project using Python and SQL skills.
 4. financial portfolio IRR calculation
 
     * key skill set: SQL, Python, root finding
-    * project implementation
+    * project implementation https://github.com/xiaoliuliurock/projectdemonstration/blob/master/portfolio_IRR_calculation.py
     
 5. geographic visualization of Twitter data across the USA
     
