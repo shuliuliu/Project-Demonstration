@@ -38,19 +38,25 @@ def make_tweet(text, time, lat, lon):
 def tweet_text(tweet):
     """Return a string, the words in the text of a tweet."""
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     return tweet['text']
+    ################################## CODE END ##################################
 
 def tweet_time(tweet):
     """Return the datetime representing when a tweet was posted."""
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     return tweet['time']
+    ################################## CODE END ##################################
 
 def tweet_location(tweet):
     """Return a position representing a tweet's location."""
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     lat = tweet['latitude']
     lon = tweet['longitude']
     return make_position(lat,lon)
+    ################################## CODE END ##################################
 
 # The tweet abstract data type, implemented as a function.
 
@@ -66,12 +72,13 @@ def make_tweet_fn(text, time, lat, lon):
     38
     """
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     # Please don't call make_tweet in your solution
     dic = {'text': text, 'time': time, 'lat': lat, 'lon': lon}
     def get_input(key):
         return dic.get(key)
     return get_input
-
+    ################################## CODE END ##################################
 
 def tweet_text_fn(tweet):
     """Return a string, the words in the text of a functional tweet."""
@@ -112,6 +119,7 @@ def extract_words(text):
     ['cat', 'on', 'my', 'keyboard']
     """
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     '''
     c = ''
     words = []
@@ -129,7 +137,7 @@ def extract_words(text):
         text = list(text.split(' '))
         return list(filter(None,text))
     return []
-
+    ################################## CODE END ##################################
 
 def make_sentiment(value):
     """Return a sentiment, which represents a value that may not exist.
@@ -150,28 +158,32 @@ def make_sentiment(value):
     """
     assert value is None or (value >= -1 and value <= 1), 'Illegal value'
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     return value
-
+    ################################## CODE END ##################################
 
 def has_sentiment(s):
     """Return whether sentiment s has a value."""
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     if s == None:
         return False
     if s <=1 and s >=-1:
         return True
     else:
         return False
+    ################################## CODE END ##################################
 
 def sentiment_value(s):
     """Return the value of a sentiment s."""
     assert has_sentiment(s), 'No sentiment value'
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     if has_sentiment(s):
         return s
     else:
         return None
-
+    ################################## CODE END ##################################
 
 def get_word_sentiment(word):
     """Return a sentiment representing the degree of positive or negative
@@ -212,6 +224,7 @@ def analyze_tweet_sentiment(tweet):
     total = 0
     count = 0
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     #words = extract_words(make_tweet(tweet)['text'])
     words = tweet_words(tweet)
     for word in words:
@@ -222,7 +235,7 @@ def analyze_tweet_sentiment(tweet):
         return make_sentiment(total / count)
     else:
         return make_sentiment(None)
-
+    ################################## CODE END ##################################
 
 #################################
 # Phase 2: The Geometry of Maps #
@@ -251,6 +264,7 @@ def find_centroid(polygon):
     (1.0, 2.0, 0.0)
     """
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     n = len(polygon)
     cen_lat = latitude(polygon[0])
     cen_lon = longitude(polygon[0])
@@ -271,7 +285,7 @@ def find_centroid(polygon):
         cen_lon = lon / (6*temp)
 
     return cen_lat,cen_lon,area
-
+    ################################## CODE END ##################################
 
 def find_state_center(polygons):
     """Compute the geographic center of a state, averaged over its polygons.
@@ -295,6 +309,7 @@ def find_state_center(polygons):
     -156.21763
     """
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     total_area = 0
     lat_weight,lon_weight = 0,0
     for poly in polygons:
@@ -303,7 +318,7 @@ def find_state_center(polygons):
         lon_weight += lon*area
         total_area += area
     return make_position(lat_weight/total_area,lon_weight/total_area)
-
+    ################################## CODE END ##################################
 
 ###################################
 # Phase 3: The Mood of the Nation #
@@ -330,7 +345,7 @@ def group_tweets_by_state(tweets):
     """
     tweets_by_state = {}
     "*** YOUR CODE HERE ***"
-
+    ################################# CODE START #################################
     def closest_state(position):
         states_center = {n: find_state_center(s) for n, s in us_states.items()}
         distance = 3963.2 #earth_radius in miles
@@ -350,6 +365,7 @@ def group_tweets_by_state(tweets):
             tweets_by_state[tweet_state].append(tweet)
 
     return tweets_by_state
+    ################################## CODE END ##################################
 
 def average_sentiments(tweets_by_state):
     """Calculate the average sentiment of the states by averaging over all
@@ -365,6 +381,7 @@ def average_sentiments(tweets_by_state):
     """
     averaged_state_sentiments = {}
     "*** YOUR CODE HERE ***"
+    ################################# CODE START #################################
     for state,tweets in tweets_by_state.items():
         total, count = 0, 0
         for tweet in tweets:
@@ -375,7 +392,7 @@ def average_sentiments(tweets_by_state):
             average = total/count
             averaged_state_sentiments[state] = average
     return averaged_state_sentiments
-
+    ################################## CODE END ##################################
 
 ##########################
 # Command Line Interface #
