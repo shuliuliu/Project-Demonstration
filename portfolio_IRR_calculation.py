@@ -1,4 +1,3 @@
-TOLERANCE = 0.00001
 
 def readFile(path):
     with open(path, "rt") as f:
@@ -8,8 +7,11 @@ def writeFile(path, contents):
     with open(path, "wt") as f:
         f.write(contents)
 
-#%% ########################################################################################
+        
+#%% #############################################################################################################
 # Demonstration of bisection method for root finding
+TOLERANCE = 0.00001
+
 def findNPV(cashflow, delta, r):
   if 1.0 + r == 0.0:
     return None
@@ -56,7 +58,8 @@ def RootFinding_bisection_method(cashflow, delta, low, high):
         highbound = mid
     return None
 
-#%% ########################################################################################
+
+#%% #############################################################################################################
 # Demonstration of Newton's method for root finding
 def RootFinding_newtons_method(cashflow, delta):
   positive = False
@@ -101,7 +104,8 @@ def RootFinding_newtons_method(cashflow, delta):
 
   return resultRate
 
-#%% ###################################################################################################
+
+#%% #############################################################################################################
 # Calling two different methods (Bisection method vs Newton's method) to calculate portfolio IRR
 cashflow = []
 delta    = []
@@ -116,7 +120,7 @@ print(RootFinding_newtons_method(cashflow, delta))
 
 
 
-#%% ###################################################################################################
+#%% #############################################################################################################
 # Demonstration of Bigquery SQL code to extract the raw data from financial portfolio used to calculate IRR rate
 """
 select
@@ -155,7 +159,7 @@ select
 """
 
 
-#%% ###################################################################################################
+#%% #############################################################################################################
 # Demonstration of sample data in the testData.csv file
 #######################################
 # #aaa	8/2/18	3/28/17	0	-100
