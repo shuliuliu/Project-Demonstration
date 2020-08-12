@@ -17,7 +17,7 @@ This is a list of data analysis projects I have done using Python and SQL skills
     
     * key skill set: python, data visualization, data restructure, feature engineering, LGBM model
   	* task source https://www.kaggle.com/c/m5-forecasting-accuracy/overview
-    * project implementation
+    * project implementation https://github.com/xiaoliuliurock/projectdemonstration/blob/master/3_Time%20Series%20-%20Forecast%20Walmart%20Sales.ipynb
 
 4. financial portfolio IRR calculation
 
