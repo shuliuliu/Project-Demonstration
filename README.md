@@ -1,5 +1,5 @@
 # Personal Project Demonstration
-Here are a few data analysis project using Python and SQL skills. 
+This is a list of data analysis projects I have done using Python and SQL skills. 
 
 1. analytics project to predict the price of NYC Airbnb rentals
 
