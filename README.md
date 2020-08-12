@@ -5,13 +5,13 @@ This is a list of data analysis projects I have done using Python and SQL skills
 
     * Key skill set: python, data visualization
   	* task source https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
-    * project implementation 
+    * project implementation https://github.com/xiaoliuliurock/projectdemonstration/blob/master/1_NYC%20Airbnb%20Data%20Visualization%20and%20Analysis.ipynb
 
 2. time series data analytics to predict total sales for every product and store in the next month
     
     * key skill set: python, data visualization, data restructure, feature engineering, data leakage, ARIMA model, LSTM model, Ensembling methods (linear regression, random forest, XGBoost)
   	* task source https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview
-    * project implementation
+    * project implementation https://github.com/xiaoliuliurock/projectdemonstration/blob/master/2_Time%20Series%20-%20Predict%20Future%20Sales_.ipynb
     
 3. time series data analytics to estimate the unit sales of Walmart retail goods in various locations for 28-day time period
     
