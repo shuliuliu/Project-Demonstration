@@ -16,7 +16,7 @@ This is a list of data analysis projects I have done using Python and SQL skills
     * key skill set: python, data visualization, data restructure, feature engineering, LightGBM model
     * project demonstration https://github.com/xiaoliuliurock/projectdemonstration/blob/master/3_Time%20Series%20-%20Forecast%20Walmart%20Sales.ipynb
 
-4. financial portfolio IRR calculation
+4. financial portfolio Internal Rate of Return calculation
 
     * key skill set: Bigquery SQL, Python programming, root finding techniques
     * project demonstration https://github.com/xiaoliuliurock/projectdemonstration/blob/master/4_portfolio_IRR_calculation.py
