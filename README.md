@@ -24,3 +24,5 @@ This is a list of data analysis projects I have done using Python and SQL skills
 6. movie recommender system
    * key skill set: Python, recommender systems
    * project demonstration https://github.com/xiaoliuliurock/projectdemonstration/blob/master/6_Recommender_System_Practice%20-%20Recommending_Movies.ipynb
+
+MORE TO COME...
