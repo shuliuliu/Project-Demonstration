@@ -25,4 +25,8 @@ This is a list of data analysis projects I have done using Python and SQL skills
    * key skill set: Python, recommender systems
    * project demonstration https://github.com/shuliuliu/projectdemonstration/blob/master/6_Recommender_System_Practice%20-%20Recommending_Movies.ipynb
 
+7. mortgage calculator
+   * key skill set: Python, Pandas, Numpy
+   * project demonstration https://github.com/shuliuliu/projectdemonstration/blob/master/7_Mortgage_Calculator_Python_Code.ipynb
+
 MORE TO COME...
