@@ -10,7 +10,7 @@ This is a list of data analysis projects I have done using Python and SQL skills
     * project demonstration [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/2_Time%20Series%20-%20Predict%20Future%20Sales_.ipynb)
     
 3. time series data analytics to estimate the unit sales of Walmart retail goods in various locations for 28-day time period   
-    * key skill set: Python, data visualization, data restructure, feature engineering, LightGBM model
+    * key skill set: Python, data visualization, dataframe downsize, data restructure, feature engineering, LightGBM model
     * project demonstration [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/3_Time%20Series%20-%20Forecast%20Walmart%20Sales.ipynb)
 
 4. financial portfolio Internal Rate of Return calculation
@@ -22,7 +22,7 @@ This is a list of data analysis projects I have done using Python and SQL skills
     * project demonstration [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/5_Twitter_Trends.py)
 
 6. movie recommender system
-   * key skill set: Python, recommender systems
+   * key skill set: Python, recommender systems, correlation matrix, collaborative filtering, string evaluation, data cleaning
    * project demonstration [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/6_Recommender_System_Practice%20-%20Recommending_Movies.ipynb)
 
 7. mortgage calculator with full payment table
@@ -34,4 +34,8 @@ This is a list of data analysis projects I have done using Python and SQL skills
    * project source code [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/8_Loan_Calculator_with_GUI.py)
    * project demonstration [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/8_Loan_Calculator_with_GUI.pdf)
    
+9. movie recommending - a practice project to demonstrate my ETL and data manipulation skills
+   * key skill set: Python, ETL, Pandas, Numpy, data cleaning, string evaluation, dataframe downsize
+   * project demonstration [link here](https://github.com/shuliuliu/projectdemonstration/blob/master/9_ETL%20Practice-Movies%20Recommending.ipynb)
+
 MORE TO COME...
