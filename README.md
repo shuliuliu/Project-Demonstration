@@ -30,8 +30,8 @@ This is a list of data analysis projects I have done using Python and SQL skills
 * **Brief description**: implementation of various recommendation systems (popularity based, content based, and collaborative filtering) as well as an ensemble model consolidating various recommendation algorithms
 * **Key skill set**: Python, data cleaning, ETL, Pandas, Numpy, data cleaning, string evaluation, dataframe downsize, recommender systems, correlation matrix, collaborative filtering, string evaluation
 * This project is done in two parts:
-   * **Part I demonstration**: ETL and data manipulation [link here](https://github.com/shuliuliu/Project-Demonstration/tree/master/Project%206/Project%206.1)
-   * **Part II demonstration**: implementation of various recommendation algorithms [link here](https://github.com/shuliuliu/Project-Demonstration/tree/master/Project%206/Project%206.2)
+   * **Part I demonstration**: ETL and data manipulation [link here](https://github.com/shuliuliu/Project-Demonstration/tree/master/Project%206/Project%206.2)
+   * **Part II demonstration**: implementation of various recommendation algorithms [link here](https://github.com/shuliuliu/Project-Demonstration/tree/master/Project%206/Project%206.1)
 
 ### Project 7
 * **Brief description**: mortgage calculator to print full payment table, and with GUI design
